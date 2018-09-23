@@ -1,0 +1,13 @@
+<html>
+<head><title>Anne DiSciullo - Validity Code Exercise</title></head>
+<body>
+<h1>Duplicate Sets:</h1>
+<div th:each="duplicate : ${duplicates}">
+    <div th:text="${duplicate}"></div>
+</div>
+<h1>Unique Entries:</h1>
+<div th:each="unique : ${uniques}">
+    <div th:text="${unique}"></div>
+</div>
+</body>
+</html>
